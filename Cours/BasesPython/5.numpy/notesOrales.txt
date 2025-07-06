@@ -1,0 +1,7 @@
+- expliquer les alias as np
+
+- Tableau 3D: expliquer que c'est utile en IA pour travailler avec des images
+
+- Tableau 1D: Ne pas confondre avec les listes, le type n'est pas le même
+
+- valeurs propres et vecteurs propres 2A
