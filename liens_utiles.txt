@@ -1,0 +1,7 @@
+- je dois être habiller de la même pour chaque chapitre/bloc
+- on s'en fout de math appliques-approfondies si on peut préciser au conditionnel que c'est 1A ou 2A une notion
+- avoir une posture professionelle, pas de bégaiement etc.
+- à la fin de chaque chapitre, une dizaine d'exos 
+- un chapitre le python dans les annales de maths et l'objectif: faire tous les exos de python des sujets de maths (t, appli, appro) pour ecricome, edhec, emlyon, hec1, essec2 de 2021 à 2025 
+
+ECG2: https://cahier-de-prepa.fr/ecg2-saintlouis/?maths/info

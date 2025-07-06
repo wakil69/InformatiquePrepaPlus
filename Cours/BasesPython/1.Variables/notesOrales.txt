@@ -1,0 +1,17 @@
+Partie conventions:
+- ces conventions sont utiles pour faciliter la compréhension de votre code par une autre personne, en l'occurence dans votre cas ce sera votre professeur/examinateur, 
+ne le négligez pas, c'est dans les petits détails qu'on reconnait les étudiants qui ont bien travaillé ou pas, et cela donne de l'indulgence au correcteur
+- camelCase utilisé dans d'autres langages comme Javascript qui est très utilisé pour la création de sites web par ex.
+- on verra tout au long du cours les mots réservés par python 
+
+Partie entier:
+- vous pouvez mettre des commentaires avec # et c'est même très conseillé pour faciliter la compréhension de votre code mais n'en abusez pas!
+- math.pi / 3 n’est pas exactement π/3​, mais une valeur très proche. Cette erreur est due à la précision limitée des nombres flottants en mémoire.
+
+Partie list:
+- ils peuvent mettre différents types de variables à l'intérieur qu'on verra dans la suite
+- aérer la liste en mettant des espaces pour rendre la lecture agréable
+
+Partie bool:
+- les prints représentent ce qui est True et ce qui est false pour chaque type de variable
+- Une condition retourne toujours un booléen (dire une petite introduction de ce qu'on verra plus tard)
