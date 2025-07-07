@@ -1,0 +1,3 @@
+Série:
+- une liste avec des étiquettes.
+- value_counts set the numbers as index
