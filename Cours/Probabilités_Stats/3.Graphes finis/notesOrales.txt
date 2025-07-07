@@ -1,0 +1,8 @@
+Graphe non orienté:
+- exemple: graphe qui représente un championnat de foot, un arête correspond à un match entre 2 équipes et vu qu'elles se rencontrent toutes, le graphe est complet.
+
+Implémentation de graphes:
+- il en existe plein, je vais en présenter quelques unes
+
+Algorithme de dijkstra:
+- il existe des versions moins couteuses en performance de cet algorithme mais elles sont hors-programme
