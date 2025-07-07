@@ -1,0 +1,22 @@
+Intro:
+- les lois statistiques fondamentales permettent de décrire comment les données se comportent.
+- présenter quelques-unes des lois les plus courantes, comme la loi binomiale, la loi de Poisson, la loi normale ou encore la loi exponentielle, et expliquer dans quels contextes elles s’appliquent concrètement.
+
+Loi binomiale:
+- Lancer une pièce 10 fois (n = 10), et compter combien de fois elle tombe sur pile (succès), avec une probabilité de pile de 0.5.
+- distribution en cloche autour de 5 (la moitié de 10), car c’est le nombre moyen de succès attendu quand p = 0.5.
+
+loi géométrique:
+- ex: avec tirage de boules (avec remise), la boule bleu est gagnante 
+
+loi exponentielle:
+- ex:Temps avant l’arrivée du prochain client
+
+Loi uniforme:
+- rien n'est favorisé, tout est "équitable".
+-ex: un dé équilibré à 6 faces
+- Plus tu fais de lancers, plus la distribution sera uniforme (loi des grands nombres).
+- loi des grands nombres : Lorsque l’on répète une expérience aléatoire un grand nombre de fois, la moyenne empirique des résultats tend vers la moyenne théorique.
+
+Loi normale:
+- Loi des grands nombres s'applique aussi
