@@ -6,3 +6,7 @@ Implémentation de graphes:
 
 Algorithme de dijkstra:
 - il existe des versions moins couteuses en performance de cet algorithme mais elles sont hors-programme
+- Tout se passe dans le while tant que la liste a_traiter n'est pas vide
+- Dire qu'on va juste montrer comment l'algorithme de Dijkstra fonctionne en trouvant le plus court chemin AC et qu'ensuite c'est toujours la même chose 
+
+
