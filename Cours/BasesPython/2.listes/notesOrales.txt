@@ -1,2 +1,0 @@
-- Elle va ressembler un peu à la vidéo sur les chaines de caractères
-- sans .copy, toute modification affecterait aussi la liste originale.

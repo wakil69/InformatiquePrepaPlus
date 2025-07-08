@@ -1,2 +1,0 @@
-- Extraire keys et values: bien spécifié que le résultat n'est pas une liste et que s'ils veulent travailler avec  des listes ils utilisent list() utile car dict_keys ou dict_values ne sont pas indexables 
-(peut pas values[0])
