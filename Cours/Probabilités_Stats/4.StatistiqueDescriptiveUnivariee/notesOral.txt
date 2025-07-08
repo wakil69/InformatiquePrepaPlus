@@ -1,0 +1,33 @@
+médiane:
+- impair: un seul élément au centre
+- pair: deux éléments centraux donc on calcule la moyenne
+
+Regroupement par classes:
+- bins=classes : Liste des bornes qui définissent les intervalles
+- right=True : Chaque intervalle est fermé à droite (ex. : 10 ∈ [0, 10])
+- include_lowest=True : La première borne gauche (ici 0) est incluse dans le premier intervalle
+- (-0.001, 10.0] : pandas fait ça pour garantir que 0 est bien inclus dans la première classe sans modifier les règles générales (qui disent que les intervalles sont fermés à droite et ouverts à gauche).
+- densité est utile pour comparer des classes de tailles différentes équitablement
+
+ecart-type:
+Différences entre les deux écart types (leur dire de voir leur cours):
+Si tu mesures la taille de 20 élèves (échantillon) pour estimer la taille moyenne des adolescents français (population), utilise le corrigé.
+    - Écart-type non corrigé σn
+
+        Utilise n au dénominateur.
+
+        Suppose que tu connais toute la population.
+
+        Est exact si tu n’as aucune incertitude (données complètes).
+
+        Utilisé parfois en physique ou en ingénierie où toute la population est connue.
+
+    - Écart-type corrigé (Bessel) σn−1
+
+        Utilise n−1 au dénominateur : c’est la correction de Bessel.
+
+        Sert à corriger un biais quand tu estimes la dispersion d'une population à partir d’un échantillon.
+
+        Plus précis statistiquement pour de petits échantillons.
+
+        C’est celui que numpy (avec ddof=1) et pandas utilisent par défaut.

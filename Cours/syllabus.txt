@@ -2,6 +2,26 @@
 
 - Variables
 - Listes
-- Chaine de caractères
+- Chaines de caractères
+- Dictionnaires
+- if et boucles for et while
+- La librairie numpy
+- Tracés de graphiques
+
+2) Fonctions
+
+- Fonctions à 2 Variables
+- Equations différentielles
+
+3) Probabilités et Statistiques
+
+- Rappels de lois Statistiques
+- La librairie Pandas
+- Graphes finis et plus courts chemins
+- Statistique descriptive univariée
+- Statistique descriptive bivariée
+- Simulation
+- Estimation
+- Chaines de Markov
 
 4) Annales corrigés

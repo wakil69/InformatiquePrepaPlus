@@ -1,0 +1,5 @@
+Variance et covariance:
+- les formules données ici sont données dans le cas où la population a une probabilité uniforme
+
+Droites de regression:
+- -1 si la pente est négative donc a
