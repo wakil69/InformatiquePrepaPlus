@@ -1,5 +1,31 @@
 Variance et covariance:
+- variance: Dispersion d’une variable, Elle mesure à quel point les valeurs de XX s’éloignent de la moyenne. ex: Si les notes d’une classe sont toutes proches de 15 → faible variance. Si certaines sont à 5, d’autres à 20 → grande variance.
+- covariance: Elle mesure comment deux variables varient ensemble, attention elle n'est pas normalisée 
+Cov(X,Y)>0 → corrélation positive : quand X augmente, Y tend à augmenter.
+
+Cov(X,Y)<0 → corrélation négative : quand X augmente, Y tend à diminuer.
+
+Cov(X,Y)=0 → pas de dépendance linéaire.
+
+N'est pas normalisée, donc elle dépend de l’unité de mesure
+
+ex: Soit X = taille (en cm), Y = poids (en kg).
+Leur covariance pourrait être par exemple: Cov(X,Y)=210, si on passe la taille en metre, elle change !
+
+
+Ce nombre dépend des unités : si tu passes les tailles en mètres, la covariance change !
+
+
 - les formules données ici sont données dans le cas où la population a une probabilité uniforme
+
 
 Droites de regression:
 - -1 si la pente est négative donc a
+- plusieurs méthodes pour démontrer a et b, ici j'ai choisi celle avec le produit scalaire
+
+Decomposition de la variance:
+- variance expliquée: la part de la variance de Y que ton modèle de régression linéaire réussit à prédire grâce à X.
+- variance résiduelle: La variance résiduelle est la part de la variance de Y que ton modèle ne parvient pas à prédire. Elle correspond aux erreurs entre les vraies valeurs yi​ et les valeurs prédites axi+b.
+Ex:prédire la taille d'une personne à partir de son âge :
+    Une partie des différences de taille s’expliquent par l’âge → variance expliquée
+    Le reste dépend d'autres facteurs (génétique, nutrition...) que tu n’as pas dans ton modèle → variance résiduelle
