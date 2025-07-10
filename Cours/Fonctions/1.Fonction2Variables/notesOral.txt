@@ -1,0 +1,4 @@
+Leur conseiller de voir les vidéos de maths dessus
+
+Dérivées partielles:
+- ∂1​f(m) est la dérivée partielle de f par rapport à x, en m=(a,b), pour la calculer on fixe y = b et on dérive la fonction partielle par rapport à x
