@@ -1,0 +1,8 @@
+Exercice 2
+- parler d'un accumulateur, prenez l'habitude de cette structure
+
+Exercice 9:
+- on remarque que ce sont les approximations de taylor de sin(x) autour de x = 0
+- Plus le polynôme contient de termes, plus il approxime bien sin(x) autour de x=0
+- Cette approximation est meilleure près de 0 et se dégrade loin de 0
+- Cela illustre la série de Taylor de sin(x) autour de 0.

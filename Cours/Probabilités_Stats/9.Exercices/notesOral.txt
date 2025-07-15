@@ -1,0 +1,10 @@
+Exercice 1
+- Cette limite signifie que lorsque nn devient très grand, et que la probabilité de succès p_n=λ/n​ devient très petite,
+alors la loi binomiale B(n,p_n​) se comporte de plus en plus comme une loi de Poisson de paramètre λ.
+
+En d’autres termes, la probabilité d’avoir exactement k succès sous la loi binomiale tend vers celle de la loi de Poisson.
+
+On dit que la loi de Poisson approxime la loi binomiale dans le cas où les expériences sont très nombreuses, mais les succès très rares.
+
+Exercice 2:
+- a) on peut utiliser un arbre vu que les événement sont successfis et indépendants
