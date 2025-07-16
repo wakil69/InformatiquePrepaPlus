@@ -2,6 +2,11 @@ médiane:
 - impair: un seul élément au centre
 - pair: deux éléments centraux donc on calcule la moyenne
 
+
+quartile:
+- Étudier quartiles, déciles, centiles n’a d’intérêt que si l’effectif de la population est grand
+devant 4, 10, 100
+
 Regroupement par classes:
 - bins=classes : Liste des bornes qui définissent les intervalles
 - right=True : Chaque intervalle est fermé à droite (ex. : 10 ∈ [0, 10])
