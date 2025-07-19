@@ -4,5 +4,18 @@
 - prendre un papier pour formaliser le problème et ensuite vous codez
 - n'hésitez pas à revoir plusieurs fois les passages ou bien si vous avez des facilités à accélérer la vitesse de la vidéo, n'ayez pas honte et travaillez à votre rythme, l'important c'est la maitrise
 - l'informatique si vous le travaillez de manière sérieuse ce sont des points cadeaux croyez moi et il ne nécessite pas une grande charge de travail
-- des questions, mettez les dans la barre de commentaire, j'essaierai d'y répondre le plus rapidmeent possible
+- des questions, mettez les dans la barre de commentaire, j'essaierai d'y répondre le plus rapidement possible
 - je vais utiliser vscode comme éditeur de code mais vous pouvez en utiliser un autre à votre convenance
+- Nous allons voir 4 blocs dans ce cours: 
+ 1) Les bases de python: Le bloc le plus important. Les bases que ce soit en informatique, en mathématiques ou n'importe quel domaine, c'est toujours la partie la plus importante. En effet, lorsque vous avez de bonnes bases, le reste
+ des connaissance, c'est juste des petits blocs de méthodes qu'on ajoute et qui seront assimilés très rapidement car vous ne perdrez pas de temps à faire des erreurs basiques et vous ne vous poserez pas de questions qui sont liés à ces bases.
+
+ 2) Les probabilités et statistiques: Ce chapitre là couvrira l'ensemble des lois de probabilités, l'utilisation de la librarire pandas, les graphes finis et enfin les notions de simulation et estimation. Tout ce que vous avez vu en mathématiques sera traduit en informatique en somme.
+
+ 3) Les fonctions: Ce bloc couvrira l'étude et la visualisation des fonctions de deux variables et la résolution d'équations différentiels.
+
+ 4) Enfin, la dernière partie sera dédié aux bases de données et au langage de programmation SQL qui est vraiment très simple et intuitif.
+
+ Pour finir, nous corrigerons ensemble toutes les annales qui sont tombés au concours depuis l'année 2021.
+
+ Le programme est chargé alors sans plus attendre, let's go.

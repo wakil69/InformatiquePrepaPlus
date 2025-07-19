@@ -1,7 +1,17 @@
+Inroduction:
+ - Une librarire pour manipuler des vecteurs ou bien des matrices et qui nous donnent différentes fonctions qui vont nous faciliter la vie et qu'on a pas forcément en travaillant avec des listes
+ - ce n'est pas une bibliothèque native comme la librairie math, il faut l'installer et pour cela rien de plus simple on utilise la commande pip install 
+ 
 - expliquer les alias as np
 
-- Tableau 3D: expliquer que c'est utile en IA pour travailler avec des images
+- Tableau 3D: expliquer que c'est utile en IA pour travailler avec des images (RGB)
 
-- Tableau 1D: Ne pas confondre avec les listes, le type n'est pas le même
+- Tableau 1D: Ne pas confondre avec les listes, le type n'est pas le même. Aussi, hover sur linspace et arange pour parler de dtype
+
+- Opérations: je vais parler par la suite du broadcasting
+
+- moyen mémotechnique: (ligne x colonne) donc axis = 0 somme dans la direction des lignes dans la somme de chaque colonne, axis = 1 somme dans la direction des colonnes donc la somme de chaque ligne
+
+- float32 et float64: dis leur que ça peut être une question pour les meilleurs, ceux qui comprennent vraiment l'essence de la programmation
 
 - valeurs propres et vecteurs propres 2A

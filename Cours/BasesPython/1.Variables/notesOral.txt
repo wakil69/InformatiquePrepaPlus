@@ -1,3 +1,6 @@
+" : guillemet
+' : apostrophe
+
 Partie conventions:
 - ces conventions sont utiles pour faciliter la compréhension de votre code par une autre personne, en l'occurence dans votre cas ce sera votre professeur/examinateur, 
 ne le négligez pas, c'est dans les petits détails qu'on reconnait les étudiants qui ont bien travaillé ou pas, et cela donne de l'indulgence au correcteur
@@ -15,3 +18,7 @@ Partie list:
 Partie bool:
 - les prints représentent ce qui est True et ce qui est false pour chaque type de variable
 - Une condition retourne toujours un booléen (dire une petite introduction de ce qu'on verra plus tard)
+
+Conclusion:
+- Amusez vous à créer des variables, à changer leur type vous verrez par vous même ce qu'il est possible de faire ou non.
+- Pour ceux qui sont curieux et qui ont envie d'en savoir plus sur le typage en python, je jette un pavé dans la mare: je vous invite à voir les librairies typing et pydantic. 

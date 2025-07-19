@@ -1,4 +1,11 @@
 plt.hist()
+- on génère 100 notes d’une variable aléatoire qui suit une loi normale N(12,3)
+| Intervalle | Formule mathématique | % de la population   |
+| ---------- | -------------------- | -------------------- |
+| ±1σ        | $\mu +/- \sigma$     | \~68 % des valeurs   |
+| ±2σ        | $\mu +/- 2\sigma$    | \~95 % des valeurs   |
+| ±3σ        | $\mu +/- 3\sigma$    | \~99.7 % des valeurs |
+
 - divise l'intervalle des valeurs en 10 tranches (bins)
 - compte combien de valeurs tombent dans chaque tranche 
 - dessine une barre verticale pour chaque tranche
@@ -8,6 +15,11 @@ plt.quiver()
 
 plt.contour()
 - utilisé par ex: pour observer gradient descent qui est un algorithme qui permet de minimiser une fonction de coût lors de l'entrainement d'un modèle d'intelligence artificielle 
+- on reverra cette fonction dans l'étude des fonctions à 2 variablees
+
+plt.bar()
+- dire que pour l'histogramme les données ont été mises dans des bins alors qu'ici elles sont déjà catégorisées
 
 plt.boxplot()
 - Utilisé par ex: Expression d’un gène dans 3 groupes (un groupe saine et avec des mutations A et des mutaitons B)
+

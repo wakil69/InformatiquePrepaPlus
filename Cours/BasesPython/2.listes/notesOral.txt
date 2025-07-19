@@ -1,2 +1,21 @@
-- Elle va ressembler un peu à la vidéo sur les chaines de caractères
+- introduction :
+    - Chapitre important et pas très difficile. Une liste est utile pour stocker des valeurs de différents types. On peut faire l'analogie avec un sac à dos dans lequel vous rangez des affaires de différents types. 
+    - Si je dois donner un exemple d'utilisation de liste cela peut être utile pour stocker les valeurs prises par une fonction mathématique. C'est ce que l'on verra plus tard.
+
+Copie:
+-Pour liste_b_entiere, dire que je vais revenir plus tard sur l'aspect de la copie indépendante
+- Quand tu copies un objet mutable, les deux variables peuvent encore partager le même contenu interne — donc modifier l’un peut aussi modifier l’autre.
+- on peut utiliser .copy ou bien le slicing
 - sans .copy, toute modification affecterait aussi la liste originale.
+
+Supprimer un élement d'une liste:
+- liste de compréhension, dire que je reviendrai plus tard dessus dans une autre vidéo
+
+pop à ne pas confondre avec poop, j'en connais certains qui seraient capable de faire l'erreur
+
+manipuler liste de listes:
+- mentionner numpy qu'on verra plus tard
+
+Conclusion:
+- C'était un chapitre très important prenez la main dessus pour vous habituer à la syntaxe et surtout que certains réflexes deviennent naturels comme le fait que le premier élément d'une liste son indice est 0 et surtout pas 1 par exemple 
+- Le prochain chapitre est sur les chaines de caractères qui est très similaire à celui ci

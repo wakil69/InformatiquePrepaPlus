@@ -1,2 +1,4 @@
-- Extraire keys et values: bien spécifié que le résultat n'est pas une liste et que s'ils veulent travailler avec  des listes ils utilisent list() utile car dict_keys ou dict_values ne sont pas indexables 
+- Un dictionnaire est un bon moyen de stocker des données de manière structurée, les listes c'est un peu fourre tout, alors qu'au contraire avec les dictionnaires on peut s'y retrouver très facilement. Pour ceux intéressés par les bases de données on peut faire un parallèle entre
+les dictionnaires et les bases de données appellées nosql j'en dis pas plus car ce n'est pas le sujet ici. 
+- Extraire keys et values: bien spécifié que le résultat n'est pas une liste et que s'ils veulent travailler avec des listes ils utilisent list() utile car dict_keys ou dict_values ne sont pas indexables 
 (peut pas values[0])

@@ -1,3 +1,5 @@
+Pas besoin de lire les énoncés 
+
 Exercice 2
 - parler d'un accumulateur, prenez l'habitude de cette structure
 
@@ -6,3 +8,11 @@ Exercice 9:
 - Plus le polynôme contient de termes, plus il approxime bien sin(x) autour de x=0
 - Cette approximation est meilleure près de 0 et se dégrade loin de 0
 - Cela illustre la série de Taylor de sin(x) autour de 0.
+
+Exercice 13:
+Pour ça, on commence par calculer la longueur de la liste `L`, qu’on appelle `n`.
+Ensuite, on fait une **boucle** qui va de l’indice `0` jusqu’au **milieu de la liste** (`n // 2`), parce qu’on va échanger les éléments **de chaque extrémité vers le centre**.
+À chaque tour de boucle, on **échange deux éléments** :
+ * celui à la position `i`
+ * avec celui à la position `n - 1 - i` (c’est l’élément symétrique par rapport au centre)
+Par exemple, le premier et le dernier élément s’échangent, puis le deuxième et l’avant-dernier, etc., jusqu’au centre.

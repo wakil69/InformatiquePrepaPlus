@@ -1,1 +1,6 @@
+- faire des parallèles avec les listes
+- Bien préciser que la fonction replace n'est pas utilisable pour des listes !!!! On a vu plusieurs manières de faire je vous invite à aller voir la vidéo précédente
 - index ou indice veulent dire la même chose
+Conclusion:
+- Un chapitre un peu redondant avec les listes mais avec des subtilités qu'il faut maitriser, je ne le répeterai jamais assez pratiquer, pratiquer et pratiquer
+- Porchain chapitre les dictionnaires, qui est un chapitre assez intuitif 

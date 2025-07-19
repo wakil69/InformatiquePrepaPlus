@@ -1,0 +1,4 @@
+Introduction:
+ - Chapitre ultra important, c'est la base de la programmation, les structures conditionnelles if else, les boucles for et while. Sans cela il n'y a pas de programmation. Vous le verrez par vous même on ne peut pas passez outre.
+  si vous vous souvenez des précédentes vidéos, j'étais obligé d'introduire les listes par compréhension par exemple car je ne pouvais pas passer outre.
+  Nous allons aussi voir les fonctions qui permettent d'éviter d'écrire plusieurs fois le même code pour des valeurs de paramètres différentes.
