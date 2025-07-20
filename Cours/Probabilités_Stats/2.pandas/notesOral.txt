@@ -1,3 +1,8 @@
+- pas d'effet si on écrit pas df = df.reset_index() faut mettre inplace
+- 2 éme quartile = médiane
 Série:
 - une liste avec des étiquettes.
-- value_counts set the numbers as index
+- value_counts set the numbers as index 
+- .sort_index() trie de manière croissante par rapport à l'index 
+- value_counts(normalize=True) normalize = calcule les proportions pour que la somme des proportions donne 1
+- .astype(str) petite astuce pour qu'il prenne les notes pour des catégories et non des valeurs numériques

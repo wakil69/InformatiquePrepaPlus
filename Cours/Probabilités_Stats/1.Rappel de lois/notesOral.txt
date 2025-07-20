@@ -1,22 +1,59 @@
 Intro:
 - les lois statistiques fondamentales permettent de décrire comment les données se comportent.
+- L’objectif est de revoir leur usage concret, comprendre ce qu’elles modélisent, et comment elles apparaissent dans des situations du quotidien.
 - présenter quelques-unes des lois les plus courantes, comme la loi binomiale, la loi de Poisson, la loi normale ou encore la loi exponentielle, et expliquer dans quels contextes elles s’appliquent concrètement.
+- Ce cours propose un rappel des principales lois discrètes (Bernoulli, binomiale, géométrique, Poisson) et lois continues (exponentielle, normale), accompagnées de leurs interprétations, propriétés, et illustrations par simulation.
 
 Loi binomiale:
+- je mixe la loi de bernoulli qui est un cas de la loi binomiale
+- bins = 11 parce que on prend la valeur de 0 à 10
 - Lancer une pièce 10 fois (n = 10), et compter combien de fois elle tombe sur pile (succès), avec une probabilité de pile de 0.5.
-- distribution en cloche autour de 5 (la moitié de 10), car c’est le nombre moyen de succès attendu quand p = 0.5.
+- Le graphique présente une forme symétrique en cloche centrée autour de 5. Cela est caractéristique d’une loi binomiale avec p=0.5 (succès et échec également probables).
+➤ C'est proche d'une distribution normale car ici on peut voir que n=10 est suffisant pour une approximation.
+Théorème centrale limite : Lorsqu'on répète beaucoup de fois une expérience aléatoire, la somme (ou la moyenne) des résultats suit approximativement une loi normale, même si la distribution d’origine n’est pas normale. (jouer avec n=1 et n =2, pas de distribution normale)
+But TCL: Approcher une distribution inconnue (ou pas facile à manipuler) par une loi normale, lorsqu’on fait la moyenne (ou somme) d’un grand nombre d'observations indépendantes.
+
+- Le pic de l'histogramme est à 5 succès, ce qui est cohérent avec l’espérance théorique : n×p = 10 * 0.5 = 5
+- Les cas extrêmes (0 ou 10 succès) sont très rares, ce qui correspond à une faible probabilité d’obtenir soit que des piles, soit que des faces en 10 lancers.
+- Sur 1000 expériences, la forme générale de la distribution est bien respectée, mais on observe encore de petites variations aléatoires, typiques d’un échantillon fini.
 
 loi géométrique:
-- ex: avec tirage de boules (avec remise), la boule bleu est gagnante 
+- dé truqué 
+- Le graphique montre une décroissance rapide : la fréquence des essais diminue à mesure que le nombre de tentatives avant le 1er succès augmente. Cela est typique d'une loi géométrique.
+- Le pic de l’histogramme est au premier essai : il est donc le plus probable d'obtenir un succès dès le premier lancer.
+- Bien que peu fréquents, il y a des cas où le succès n’arrive qu’après 10, 15, voire plus de tentatives. Cela reflète la possibilité (faible mais non nulle) de longues séries d’échecs.
+- Espérance (valeur moyenne attendue) : Pour p=0.2, l’espérance théorique est 1/p​=5. Le centre de masse du graphique devrait se situer autour de 5.
+- chaque ligne contient 100 réalisations indépendantes d’une même variable géométrique Geom(p). Une collection de 100 réalisations de la même variable géométrique.
+- chaque élément de data est une réalisation d’une variable géométrique.
+
+- aparté : pourquoi on a besoin de faire des groupes pour voir la loi normale alors que pour la loi binomiale non. La loi binomiale est une somme de variables de bernoulli donc pas besoin de groupes.
+ Alors que pour la loi géométrique comme on peut le voir, il n'y a pas de sommes ou de moyenne de variables, on en a qu'une seule. Donc, on est obligé de créer des groupes
+
+loi de poisson:
+-  Le pic de l’histogramme se situe autour de 6, ce qui est cohérent avec le paramètre λ=6 représentant le nombre moyen d’appels par heure.
+➤ Cela confirme que l’espérance mathématique de la loi (E(X)=λ) est bien respectée dans la simulation.
+-  La loi de Poisson est asymétrique, surtout pour de petites valeurs de λ.
+➤ Ici, la forme est presque symétrique, car λ=6 est suffisamment grand pour approcher une forme "en cloche", similaire à une loi normale.
+Pour une seule variable X∼Poisson(λ), on peut approcher sa loi par une loi normale si λ est suffisamment grand (en général λ≥10), donc pas besoin du tcl ici.
 
 loi exponentielle:
 - ex:Temps avant l’arrivée du prochain client
+- Le graphique a une pente forte au début et diminue progressivement.
+- Cela reflète la nature de la loi exponentielle, où les petits temps d’attente sont très fréquents et les longs temps d’attente sont rares, mais possibles.
+- Le pic (maximum de densité) est très proche de 0. Cela signifie que, le plus souvent, le prochain client arrive peu de temps après le précédent.
+- Espérance autour de 6 minutes (1/lambda)
 
 Loi uniforme:
 - rien n'est favorisé, tout est "équitable".
 -ex: un dé équilibré à 6 faces
 - Plus tu fais de lancers, plus la distribution sera uniforme (loi des grands nombres).
-- loi des grands nombres : Lorsque l’on répète une expérience aléatoire un grand nombre de fois, la moyenne empirique des résultats tend vers la moyenne théorique.
+- loi des grands nombres : Lorsque l’on répète une expérience aléatoire un grand nombre de fois, la moyenne empirique des résultats tend vers la moyenne théorique. (valable pour toutes les lois que l'on a vu)
 
 Loi normale:
 - Loi des grands nombres s'applique aussi
+- Le graphique montre une distribution symétrique autour de 12, ce qui est cohérent avec une loi normale.
+La majorité des notes se situent entre 9 et 15, soit μ±σ, ce qui est attendu.
+- Tu as utilisé np.clip(notes, 0, 20) pour forcer toutes les valeurs à rester dans l'intervalle [0, 20].
+Les valeurs inférieures à 0 sont collées à 0 → petit accumulation artificielle au bord gauche.
+Idem pour les valeurs > 20, collées à 20 → autre accumulation visible à droite.
+Cela déforme légèrement la courbe naturelle d'une vraie loi normale.
