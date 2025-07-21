@@ -1,5 +1,13 @@
+Intro:
+nous allons entrer dans un domaine fondamental en statistique moderne : la simulation de variables aléatoires, et plus précisément, 
+comment visualiser et estimer la fonction de répartition et la densité de probabilité à partir d’échantillons simulés.
+En data science, on travaille souvent avec des échantillons simulés ou des données réelles, et on doit estimer ces fonctions à partir de données.
+Ce cours va donc vous montrer comment, à partir d’un grand nombre de valeurs simulées — par exemple suivant une loi normale — on peut reconstruire graphiquement une fonction de répartition empirique, 
+ou une densité de probabilité estimée
+L’idée, c’est de faire le lien entre la théorie — ce qu’on connaît des lois — et la simulation numérique — ce qu’on peut observer et visualiser avec un ordinateur.
+
 Dans une loi normale, la fonction de répartition monte doucement au début, puis plus vite autour de la moyenne, puis se stabilise.
-L'écart-type nous indique où se situe cette montée rapide. Par exemple, environ 68 % des valeurs sont entre μ−σμ−σ et μ+σμ+σ. 
+L'écart-type nous indique où se situe cette montée rapide. Par exemple, environ 68 % des valeurs sont entre μ−σ et μ+σ. 
 Ça veut dire que sur la courbe de répartition, FX(μ+σ)−FX(μ−σ)≈0.68 qui correspond FX​(1)−FX​(−1)≈0.68
 Environ 68 % des données se trouvent entre μ−σ et μ+σ, donc cette portion de la courbe grimpe d’environ 0.68. 
 L’écart-type délimite donc l’intervalle central de la montée de la fonction de répartition

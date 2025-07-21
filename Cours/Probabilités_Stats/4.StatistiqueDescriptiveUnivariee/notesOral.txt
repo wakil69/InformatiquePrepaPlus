@@ -1,18 +1,33 @@
+intro:
+ - La statistique descriptive univariée est la branche des statistiques qui se concentre sur l’analyse d’une seule variable à la fois. 
+ - elle utilise des outils numériques (comme la moyenne, la médiane, ou l’écart-type) et graphiques (comme les histogrammes, diagrammes en bâtons ou boîtes à moustaches) afin de dégager les tendances, la dispersion et la forme d'une distribution.
+
+On va s'amuser à la fois avec numpy et pandas
+
 médiane:
 - impair: un seul élément au centre
-- pair: deux éléments centraux donc on calcule la moyenne
+- pair: deux éléments centraux donc on calcule la moyenne ex: si l'on a une série statistique avec 6 éléments alors on fera la moyenne avec le 3eme et 4eme element
 
 
 quartile:
-- Étudier quartiles, déciles, centiles n’a d’intérêt que si l’effectif de la population est grand
-devant 4, 10, 100
+- Étudier quartiles, déciles, centiles n’a d’intérêt que si l’effectif de la population est grand devant 4, 10, 100
+- le environ 50% à montrer avec l'exemple suivant avec l'interquartile (et montrer si j'enlève le dernier élément)
+- les quartiles sont un cas particulier des quantiles qu'on verra par la suite
+
+quantile: 
+- La probabilité que la variable X soit inférieure ou égale à ck​ est égale à k sur 100.
 
 Regroupement par classes:
+- faire un parallele avec les bins quand on tracait des histogrammes
 - bins=classes : Liste des bornes qui définissent les intervalles
 - right=True : Chaque intervalle est fermé à droite (ex. : 10 ∈ [0, 10])
 - include_lowest=True : La première borne gauche (ici 0) est incluse dans le premier intervalle
 - (-0.001, 10.0] : pandas fait ça pour garantir que 0 est bien inclus dans la première classe sans modifier les règles générales (qui disent que les intervalles sont fermés à droite et ouverts à gauche).
 - densité est utile pour comparer des classes de tailles différentes équitablement
+
+Histogramme: 
+- préciser qu'on peut aussi avoir des classes qui soient des catégories
+
 
 ecart-type:
 Différences entre les deux écart types (leur dire de voir leur cours):

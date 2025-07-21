@@ -1,12 +1,16 @@
+ne pas perdre de temps à expliquer graphviz, se concentrer sur le vocabulaire
 Graphe non orienté:
 - exemple: graphe qui représente un championnat de foot, un arête correspond à un match entre 2 équipes et vu qu'elles se rencontrent toutes, le graphe est complet.
 
+Graphes poondérés:
+- successions de sommets
+
 Implémentation de graphes:
-- il en existe plein, je vais en présenter quelques unes
+- il en existe plein, je vais en présenter quelques unes. 
 
 Algorithme de dijkstra:
 - il existe des versions moins couteuses en performance de cet algorithme mais elles sont hors-programme
 - Tout se passe dans le while tant que la liste a_traiter n'est pas vide
 - Dire qu'on va juste montrer comment l'algorithme de Dijkstra fonctionne en trouvant le plus court chemin AC et qu'ensuite c'est toujours la même chose 
-
+- expliquer d'abord le but puis lers résulats qu'on attend (le tableau à la fin) puis le code
 
