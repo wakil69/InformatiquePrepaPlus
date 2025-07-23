@@ -1,11 +1,14 @@
 - Bienvenue sur ce cours d'informatique pour la prépa
+- Je suis Abdelwakil Benabdi data Scientist et web developer 
 - quelques conseils: l'informatique ce n'est pas compliqué, mais il faut y dédier quelques après-midis en pratiquant de manière active
-- essayez de comprendre les choses au lieu de les apprendre par coeur, au départ cela peut sembler compliqué mais vous verrez qu'en faisant cet effort vous serez plus à même de vous adapter à n'importe quelle situation et surtout vous retiendrez les choses plus longtemps car les concepts vous sembleront logique
+- essayez de comprendre les choses au lieu de les apprendre par coeur, au départ cela peut sembler compliqué mais vous verrez qu'en faisant cet effort vous serez plus à 
+même de vous adapter à n'importe quelle situation et surtout vous retiendrez les choses plus longtemps car les concepts vous sembleront logique
 - prendre un papier pour formaliser le problème et ensuite vous codez
-- n'hésitez pas à revoir plusieurs fois les passages ou bien si vous avez des facilités à accélérer la vitesse de la vidéo, n'ayez pas honte et travaillez à votre rythme, l'important c'est la maitrise
+- n'hésitez pas à revoir plusieurs fois les passages ou bien si vous avez des facilités à accélérer la vitesse de la vidéo, n'ayez pas honte et travaillez à votre rythme, 
+l'important c'est la maitrise
 - l'informatique si vous le travaillez de manière sérieuse ce sont des points cadeaux croyez moi et il ne nécessite pas une grande charge de travail
 - des questions, mettez les dans la barre de commentaire, j'essaierai d'y répondre le plus rapidement possible
-- je vais utiliser vscode comme éditeur de code mais vous pouvez en utiliser un autre à votre convenance
+- je vais utiliser vscode comme éditeur de code avec une extension pour avoir jupyter notebook mais vous pouvez en utiliser un autre à votre convenance
 - Nous allons voir 4 blocs dans ce cours: 
  1) Les bases de python: Le bloc le plus important. Les bases que ce soit en informatique, en mathématiques ou n'importe quel domaine, c'est toujours la partie la plus importante. En effet, lorsque vous avez de bonnes bases, le reste
  des connaissance, c'est juste des petits blocs de méthodes qu'on ajoute et qui seront assimilés très rapidement car vous ne perdrez pas de temps à faire des erreurs basiques et vous ne vous poserez pas de questions qui sont liés à ces bases.
