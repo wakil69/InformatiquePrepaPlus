@@ -1,0 +1,19 @@
+Méthode de Monte-carlo:
+ - monte carlo ça donne envie d'aller en vacances
+ - on peut estimer l'espérance en la calculant à partir d'un échantillon de X
+ - Bernoulli son espérance c'est la probabilité du succès
+ - phat_n c'est l'espérance estimée
+
+Estimer un intervalle de confiance:
+ - On souhaite estimer l'espérance réelle d’une variable aléatoire X, que l’on note E(X), à partir d’un échantillon de taille n. Et on veut le faire avec un certain niveau de confiance.
+ - D’après l’inégalité de Bienaymé-Tchebychev, on sait que la probabilité que la moyenne empirique X‾n​ s’éloigne de la vraie espérance E(X) de plus de εn​, est au plus égale à V(X)nεn2nεn2​V(X)​
+ - On inverse cette idée : si on veut que la probabilité d’être en dehors de l’intervalle soit au plus α, alors il suffit de choisir un εn​ qui garantit cela.
+ - alpha peut etre 0.05 et donc le niveau de confaince à 95% 
+ - Dans la pratique, on ne connaît souvent pas la vraie variance σ2(X), donc on la remplace par une estimation à partir de l’échantillon.
+ - σn−1​ : estimation corrigée, qui compense le biais et est souvent préférée pour des petits échantillons.
+ - On construit un intervalle de confiance autour de l'espérance estimée, dont la largeur dépend de la variance et de la taille de l’échantillon. Si on ne connaît pas la vraie variance, on la remplace par une estimation à partir des données. 
+ Plus l’échantillon est grand, plus l’intervalle est petit, et donc plus notre estimation est précise.
+
+TCL:
+ - On cherche toujours à construire un intervalle de confiance autour de la moyenne empirique X‾nXn​, mais cette fois on utilise une approche plus précise que Tchebychev, grâce au théorème central limite.
+  - On veut que cette probabilité d’erreur soit au plus α. On résout donc l’équation pour trouver le bon εn​.

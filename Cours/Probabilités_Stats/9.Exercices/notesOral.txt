@@ -1,10 +1,48 @@
 Exercice 1
-- Cette limite signifie que lorsque nn devient très grand, et que la probabilité de succès p_n=λ/n​ devient très petite,
+- P_kmax parce que si je mets un grand n il va me donner une erreur de mémoire à cause du factorial donc j'utilise k max
+- Cette limite signifie que lorsque n devient très grand, et que la probabilité de succès p_n=λ/n​ devient très petite,
 alors la loi binomiale B(n,p_n​) se comporte de plus en plus comme une loi de Poisson de paramètre λ.
 
 En d’autres termes, la probabilité d’avoir exactement k succès sous la loi binomiale tend vers celle de la loi de Poisson.
 
 On dit que la loi de Poisson approxime la loi binomiale dans le cas où les expériences sont très nombreuses, mais les succès très rares.
 
+
+
+
 Exercice 2:
+- il faut voir l'exercice comme un tirage successfis indépendants jusqu'au premier succès
 - a) on peut utiliser un arbre vu que les événement sont successfis et indépendants
+
+Exercice 3:
+- parler de np.ceil
+
+Exercice 5:
+- augmenter n à 1000 pour montrer que ça superpose mieux
+
+
+Exercice 8: 
+
+- L’histogramme suit très bien la courbe théorique, surtout pour les grandes tailles d’échantillon comme ici (N=10 000N=10000).
+- Cela confirme la validité de la simulation.
+- La queue de la distribution (à droite) est lourde : on a des grandes valeurs peu fréquentes, typique d’une loi de Pareto.
+
+Exercice 9:
+
+- On parle de panne, on peut déjà se dire qu'on parle de loi de poisson mais ce n'est pas suffisant
+- la moyenne empirique du nombre d’événements jusqu’à t (esperance), pour différentes valeurs de λ.
+- Chaque courbe est linéaire par rapport au temps tt. Cela signifie que l'espérance du nombre d’événements Nt​ croît proportionnellement au temps.
+- La pente de chaque droite correspond à sa valeur de λ. Par exemple, pour λ=3, ϕλ(t)≈3t, ce qui est attendu théoriquement.
+-     Pour un processus de Poisson, on a :
+
+E[Nt]=λt
+
+Ton graphe expérimental (simulation) confirme parfaitement cette formule analytique.
+
+λ représente l’intensité du processus : c’est le nombre moyen de pannes par unité de temps.
+
+t représente la durée d’observation.
+
+Plus λ est grand, plus les pannes sont fréquentes.
+Plus t est grand, plus on observe les pannes longtemps. --> Quand on dit "plus tt est grand", cela veut dire plus on observe longtemps le système. Donc, on a plus de chances de voir des pannes se produire pendant cet intervalle de temps.
+👉 Le nombre moyen de pannes E[Nt] augmente avec les deux.
