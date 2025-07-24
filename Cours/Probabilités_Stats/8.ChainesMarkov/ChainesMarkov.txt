@@ -1,0 +1,30 @@
+Introduction aux chaines de markov on ne rentre pas Beaucoup dans les détails, 
+le but c'est que si vous tombez au concours sur un exercice de ce genre vous ne soyez pas perdu.
+En fait, une chaine de markov c'est une suite de variables aléatoires donc vous pouvez vous en sortir même sans savoir ce que c'est 
+mais vu qu'on est là pour que vous ayez de bonnes notes autant maximiser et vous proposer une introduction
+
+On représente la loi de Xn+1 avec mu_n+1
+tester mu_0 avec [1/3, 1/3, 1/3] c'est à dire qu'on chosit au hasard une position initiale entre 1, 2 et 3
+
+
+Théorème ergodique
+Ce que nous dit cette formule, c’est que si on prend un très grand nombre d’étapes – disons n très grand – 
+et qu’on regarde combien de fois la chaîne est passée par l’état i, puis qu’on divise par n (donc on fait une moyenne), 
+eh bien cette fréquence (ou bien cette probabilité) va converger vers une valeur fixe, qu’on appelle π(i).
+Cette valeur π(i) (probabilité limite de l'état i en état stationnaiore), c’est ce qu’on appelle la probabilité stationnaire ou distribution invariante de la chaîne. 
+C’est une sorte d’"équilibre" : à long terme, la chaîne "passe" par l’état i environ π(i) pourcentage du temps.
+
+Loi stationnaire:
+
+    -Méthde 1    
+    On simule une longue trajectoire de la chaîne (100 000 étapes), et on compte combien de fois on visite chaque état.
+    Ensuite, on divise par le nombre total d'étapes, pour obtenir la fréquence empirique d’occupation.
+    C’est l’approche intuitive : on regarde combien de temps on passe dans chaque état.
+
+    - Méthode 2/
+    Ici, on part d'une distribution initiale uniforme (toutes les probabilités égales), puis on applique la matrice de transition plusieurs fois.
+    Au bout d’un certain nombre d’itérations, la distribution mu_n converge vers π, la loi stationnaire.
+    C’est une méthode plus théorique, basée sur le fait que μn+1=μn⋅P
+
+    np.random.choice(N, p=P[current_state]) génère au hasard sachant les probabilités P[current_state] je en rentre pas dans le détail de comment elle fonctionne
+    si besoin je vous invite à regarder la documentation et si là vous ne comprenez pas mettez le en commentaire
