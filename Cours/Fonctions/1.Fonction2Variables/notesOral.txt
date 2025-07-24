@@ -1,4 +1,28 @@
 Leur conseiller de voir les vidéos de maths dessus
 
+pour les graphiques je me concentre sur les points importants
+
 Dérivées partielles:
 - ∂1​f(m) est la dérivée partielle de f par rapport à x, en m=(a,b), pour la calculer on fixe y = b et on dérive la fonction partielle par rapport à x
+
+- fonction directionnelle de paramètre t, on part d'un point M et on définit un vecteur u qui donne la direction et à partir de différentes valeurs de t arbitraires vous pouvez tracer la fonction directionnelle
+
+Positions:
+- faire avec les différentes fonctions les positions pour illustrer et parler du plan tangent
+- pour les dérivées : préciser qu'en principe on ne vous le demande pas et vous le faites à la main la dérivée mais je trouvais intéressant de le faire ici numériquement avec la définition de la dérivée
+pour df/dx : On calcule la pente entre deux points légèrement décalés autour de a, en gardant b constant.
+
+
+Extremim sous contrainte egalite:
+
+- On va s’intéresser à un problème d’optimisation sous contrainte, c’est-à-dire qu’on cherche à maximiser une fonction f(x,y), mais sans être libre de choisir n’importe quel point dans le plan.
+On est contraint de rester sur un certain ensemble de points, donné par une équation g(x,y)=k.
+- C est l’ensemble des points admissibles, autrement dit : les candidats possibles pour le maximum ou minimum.
+- On fixe x=−1 et on fait varier y pour calculer f(−1,y).
+- On voit la surface de la fonction f(x,y), en couleur, avec des lignes de niveau projetées sur la surface.
+La contrainte x=−1 apparaît comme un mur vertical noir.
+Le point rouge marque le maximum de ff sur cette contrainte, et on voit qu’il est bien sur la crête de la surface le long de ce mur
+- « On voit ici une carte de niveau de la fonction ff dans le plan (x,y).
+Les courbes représentent les valeurs constantes de ff.
+La contrainte x=−1 est représentée par une ligne verticale en pointillés noirs.
+Le point rouge montre encore une fois l’endroit où la fonction atteint un maximum sur cette contrainte. »

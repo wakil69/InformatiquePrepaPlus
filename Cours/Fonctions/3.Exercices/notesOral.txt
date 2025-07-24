@@ -1,0 +1,3 @@
+Exercice 1:
+- On visualise ici la **différence entre la production Cobb-Douglas** $CB(x, y) = \sqrt{xy}$ et le **coût total** des deux facteurs $x + y$.
+La fonction $G(x, y)$ mesure donc la **valeur nette** ou le **"gain" net** de production par rapport au coût des ressources utilisées.

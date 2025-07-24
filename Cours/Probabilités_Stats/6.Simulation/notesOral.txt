@@ -11,3 +11,11 @@ L'écart-type nous indique où se situe cette montée rapide. Par exemple, envir
 Ça veut dire que sur la courbe de répartition, FX(μ+σ)−FX(μ−σ)≈0.68 qui correspond FX​(1)−FX​(−1)≈0.68
 Environ 68 % des données se trouvent entre μ−σ et μ+σ, donc cette portion de la courbe grimpe d’environ 0.68. 
 L’écart-type délimite donc l’intervalle central de la montée de la fonction de répartition
+
+
+echantillon fini -> estimer la densité de probabilité
+Pour cela on va créer des intervalles entre 2 extrémités qui englobe les valeurs de X
+puis on va compter le nombre d'éléments qui tombent dans chacun des intervalles 
+ce qui va nous permettre d'estimer la densité de probabilté,
+tester avec N = 1000 (trop de variations) N = 20 ok
+voir le tracé avec les diagrammes on retrouve bien une forme en cloche pour la loi centreée réduite
