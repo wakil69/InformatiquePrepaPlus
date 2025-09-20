@@ -1,0 +1,3 @@
+ECS: https://www.annales-prepa.fr/maths/ecrits/s/par-ecole/
+ECE: https://www.annales-prepa.fr/maths/ecrits/e/par-ecole/
+ECT: https://prepa-ect.alexgelin.fr/Annales/
